@@ -1,0 +1,125 @@
+#include <stdio.h>
+
+/*
+Algoritmo:
+Início
+Declare as variáveis: nota1, nota2, nota3, nota4, media
+Leia as quatro notas (nota1 + nota2 + nota3 + nota4)/4
+Calcule a média: media = (nota1 + nota2 + nota3 + nota4)/4
+Mostre o valor da média
+Fim
+*/
+
+
+
+int main() {
+    
+    float nota1, nota2, nota3, nota4, media;
+    
+    printf ("Digite a primeira nota: ");
+    scanf ("%f", &nota1);
+    printf("Digite a segunda nota: ");
+    scanf("%f",&nota2);
+    printf ("Digite a terceira nota: ");
+    scanf ("%f", &nota3);
+    printf ("Digite a quarta nota: ");
+    scanf("%f", &nota4);
+    media = (nota1 + nota2 + nota3 + nota4)/4;
+    printf ("A média das notas é: %.2f\n",media);
+    return 0;
+}
+
+
+
+
+#include <stdio.h>
+
+/*
+Algoritmo:
+Início
+Declarar as variáveis: raio, area
+Definir o valor de π (pi) como aproximadamente 3.14159
+Ler o valor do raio
+Cálculo da area:area = π*raio*raio
+Mostrar o valor da área
+Fim
+*/
+
+#include <math.h> //para usar a constante de M_PI (pi)
+
+int main() {
+    float raio,area;
+    printf("Digite o valor do raio do círculo: ");
+    scanf("%f", &raio);
+    area = M_PI * raio * raio;
+    printf("A área do círculo é: %.2f\n", area);
+    return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+/*
+Algoritmo:
+Declarar as variáveis: base, altura, area
+Ler os valores da base e da altura
+Cálculo da área: area = (base * altura) / 2 
+Mostrar o valor da área
+Fim
+*/
+
+int main (){
+    float base, altura, area;
+    printf("Digite o valor da base do triângulo: ");
+    scanf ("%f", &base);
+    printf ("Digite o valor da altura do triângulo: ");
+    scanf ("%f", &altura);
+    area = (base * altura);
+    printf("A área do triângulo é: %.2f\n", area);
+    return 0;
+    
+}
+
+
+
+
+#include <stdio.h>
+
+/*
+Início
+Declarar as variáveis: a, b, temp
+Ler os valores de a e b
+Atribuir o valor de a para temp: = a
+Atribuir o valor de b para a: a = b 
+Mostrar os novos valores de a e b 
+Fim
+*/
+
+int main () {
+    int a, b, temp;
+    printf ("Digite o valor de A: ");
+    scanf("%d", &a);
+    printf("Digite o valor de B: ");
+    scanf ("%d", &b);
+    
+    // Troca de valores
+    
+    temp = a;
+    a = b;
+    b = temp;
+    
+    printf ("Valores após a troca:\n");
+    printf ("A=%d\n", a);
+    printf("B = %d\n", b);
+    
+    return 0;
+    
+    /* 
+    Alunos:
+    ANA CAROLINE LEAL DO NASCIMENTO 
+    FABRÍCIO
+    */
+}
