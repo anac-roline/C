@@ -1,21 +1,19 @@
+#include <stdio.h>
+
+/*
 Algoritmo:
-Ínicio
-Ler 5 números
-Inicializar soma= 0
-Loop somar elementos
-Exibir somar
-Fim
+Fazer um programa
+que converte Celsius
+para Fahrenheit
 */
 
-int main () {
-    int numeros [5], soma = 0;
+int main() {
+    float celcius;
+    printf ("Digite a temperatura em Celcius: ");
+    scanf("%f", &celcius);
     
-    printf ("Digite 5 números:\n");
-    for (int i = 0; i < 5; i++) {
-        scanf ("%d", &numeros[i]);
-        soma += numeros[i];
-    }
+    float fahrenheit = (9.0 / 5.0) * celcius + 32;
+    printf ("%.2f°C = %.2f°F\n", celcius, fahrenheit);
     
-    printf ("Soma: %d\n", soma);
     return 0;
 }
