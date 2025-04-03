@@ -1,19 +1,15 @@
-#include <stdio.h>
+Este repositório foi criado para armazenar e compartilhar os projetos que desenvolvi durante meus estudos da linguagem C. Cada diretório ou arquivo individualmente pode representar desde implementações de conceitos básicos até soluções mais avançadas para problemas e algoritmos. O objetivo é proporcionar um lugar para experimentar e praticar com diferentes áreas da programação, como:
 
-/*
-Algoritmo:
-Fazer um programa
-que converte Celsius
-para Fahrenheit
-*/
+Estruturas de dados
 
-int main() {
-    float celcius;
-    printf ("Digite a temperatura em Celcius: ");
-    scanf("%f", &celcius);
-    
-    float fahrenheit = (9.0 / 5.0) * celcius + 32;
-    printf ("%.2f°C = %.2f°F\n", celcius, fahrenheit);
-    
-    return 0;
-}
+Algoritmos clássicos (ex: busca, ordenação)
+
+Manipulação de arquivos
+
+Programação orientada a arquivos
+
+Sistemas operacionais
+
+Desafios e exercícios práticos
+
+![C Badge](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)   
